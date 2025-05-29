@@ -1,14 +1,11 @@
-- name: "Home"
-  link: "/"
-
-- name: "About"
-  link: "/about"
-
-- name: "Events"
-  link: "/events"
-
-- name: "Projects"
-  link: "/projects"
-
-- name: "Contact"
-  link: "/contact"
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about"
+  - title: "Events"
+    url: "/events"
+  - title: "Projects"
+    url: "/projects"
+  - title: "Contact"
+    url: "/contact"
