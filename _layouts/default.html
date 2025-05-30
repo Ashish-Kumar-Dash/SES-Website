@@ -2,13 +2,15 @@
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}">
 
   {% include head.html %}
+<body id="page-top">
+  <div class="stars"></div>
+  <div class="stars2"></div>
+  <div class="stars3"></div>
+  {{ content }}
 
-  <body id="page-top">
+  {% include footer.html %}
 
-      {{ content }}
-
-	  {% include footer.html %}
-
+  
 	  <!-- Bootstrap core JavaScript -->
 	  <script src="assets/js/jquery.min.js"></script>
 	  <script src="assets/js/bootstrap.bundle.min.js"></script>
