@@ -1,4 +1,4 @@
 ---
 layout: home
-title: "Welcome to the Space Society"
+title: "Welcome to official website of Space Exploration Society!"
 ---

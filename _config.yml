@@ -1,4 +1,7 @@
 title: "Space Exploration Society"
+logo:
+  path: /assets/img/ses.jpg
+  height: 52  # or whatever height you want
 email: ashishdash2410@gmail.com
 description: >-
   Official site of the Space Exploration Society ,IIT Bhilai. 
