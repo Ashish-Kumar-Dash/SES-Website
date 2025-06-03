@@ -1,70 +1,56 @@
 <!-- Navigation -->
 <nav
-  class="navbar navbar-expand-lg navbar-dark fixed-top"
+  class="navbar navbar-expand-lg fixed-top navbar-dark"
   id="mainNav"
-  style="background-color:  rgb(11, 11, 69)"
 >
+<!-- Navigation -->
+<nav id="mainNav" class="navbar navbar-expand-lg fixed-top navbar-dark">
   <div class="container">
     <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}/#">
-      {%- if site.logo -%}
-      <img
-        height="{{ site.logo.height | default: 52 }}"
-        src="{{ site.logo.path }}"
-      />
-      {%- else -%} {{ site.title }} {%- endif -%}
-    </a>
-    <button
-      class="navbar-toggler navbar-toggler-right"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarResponsive"
-      aria-controls="navbarResponsive"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      Menu<i class="fas fa-bars"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav text-uppercase ml-auto">
-      {% if site.locale and site.locale != "" and site.locale != nil %}
-        {%- for link in site.data.navigation[site.locale].nav -%}
-        <li class="nav-item">
-          {%- if link.url -%}
-          <a class="nav-link js-scroll-trigger" href="{{ link.url }}"
-            >{{ link.title }}</a
-          >
-          {%- elsif link.section -%}
-          <a
-            class="nav-link js-scroll-trigger"
-            href="{{ site.baseurl }}/#{{ link.section }}"
-            >{{ link.title }}</a
-          >
-          {%- else -%}
-          <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
-          {%- endif -%}
-        </li>
-        {%- endfor -%}
+      {% if site.logo %}
+        <img src="{{ site.logo.path }}" height="{{ site.logo.height | default: 52 }}" alt="logo" />
       {% else %}
-        {%- for link in site.data.navigation.nav -%}
-        <li class="nav-item">
-          {%- if link.url -%}
-          <a class="nav-link js-scroll-trigger" href="{{ link.url }}"
-            >{{ link.title }}</a
-          >
-          {%- elsif link.section -%}
-          <a
-            class="nav-link js-scroll-trigger"
-            href="{{ site.baseurl }}/#{{ link.section }}"
-            >{{ link.title }}</a
-          >
-          {%- else -%}
-          <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
-          {%- endif -%}
-        </li>
-        {%- endfor -%}
+        {{ site.title }}
       {% endif %}
-      </ul>
-    </div>
+    </a>
+
+    <ul class="navbar-nav ml-auto text-uppercase">
+      {% assign nav_links = site.data.navigation[site.locale] | default: site.data.navigation.nav %}
+      {% for link in nav_links %}
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="{{ link.url | default: '#' }}">{{ link.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
+<!-- End Navigation -->
+
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}/#">
+      {% if site.logo %}
+        <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}" />
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </a>
+
+    <!-- Removed toggle button and collapse wrapper -->
+
+    <ul class="navbar-nav text-uppercase ml-auto">
+      {% assign nav_links = site.data.navigation[site.locale] | default: site.data.navigation.nav %}
+      {% for link in nav_links %}
+        <li class="nav-item">
+          {% if link.url %}
+            <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
+          {% elsif link.section %}
+            <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/#{{ link.section }}">{{ link.title }}</a>
+          {% else %}
+            <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
   </div>
 </nav>
 <!-- End Navigation -->

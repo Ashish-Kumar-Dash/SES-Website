@@ -103,3 +103,59 @@ body, html {
   overflow: visible;
   z-index: -1;
 }
+.masthead {
+  height: 100vh;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: #ddd;
+  }
+
+  .btn-primary {
+    background-color: #5bc0ff;
+    border-color: #5bc0ff;
+    &:hover {
+      background-color: #ffffff;
+      color: #0b3d91;
+      border-color: #ffffff;
+    }
+  }
+}
+
+.astro-lines {
+  text-align: center;
+
+  h1 {
+    font-weight: 800;
+    font-size: 2.2rem;
+    letter-spacing: 1.5px;
+    animation: fadeInUp 1s ease both;
+    color: #ffffff;
+    text-shadow: 0 0 8px #4dc4ff;
+  }
+  h1:nth-child(2) { animation-delay: 0.2s; }
+  h1:nth-child(3) { animation-delay: 0.4s; }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
