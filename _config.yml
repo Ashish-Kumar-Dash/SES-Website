@@ -13,3 +13,7 @@ description: >-
   Explore our projects, missions, and activities!
 baseurl: "/SES-Website" 
 url: "https://ashish-kumar-dash.github.io"
+include:
+  - _pages
+
+

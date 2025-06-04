@@ -33,5 +33,5 @@ permalink: /
 <section style="padding: 80px 20px; text-align: center;">
   <h2 style="color: #ffffff;">Ready to reach for the stars?</h2>
   <p style="color: #ccc;">Join us in our mission to push boundaries and explore the unknown.</p>
-  <a href="/contact" style="display: inline-block; margin-top: 20px; padding: 12px 24px; background: #ff4c60; color: white; border-radius: 5px; text-decoration: none;">Contact Us</a>
+  <a href="{{ '/contact' | relative_url }}" style="display: inline-block; margin-top: 20px; padding: 12px 24px; background: #ff4c60; color: white; border-radius: 5px; text-decoration: none;">Contact Us</a>
 </section>

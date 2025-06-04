@@ -8,7 +8,8 @@
   <div class="container">
     <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}/#">
       {% if site.logo %}
-        <img src="{{ site.logo.path }}" height="{{ site.logo.height | default: 52 }}" alt="logo" />
+      <img src="{{ site.logo.path | relative_url }}" height="{{ site.logo.height | default: 52 }}" alt="logo" />
+
       {% else %}
         {{ site.title }}
       {% endif %}
@@ -29,7 +30,8 @@
   <div class="container">
     <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}/#">
       {% if site.logo %}
-        <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}" />
+       <img src="{{ site.logo.path | relative_url }}" height="{{ site.logo.height | default: 52 }}" alt="logo" />
+
       {% else %}
         {{ site.title }}
       {% endif %}
@@ -42,7 +44,8 @@
       {% for link in nav_links %}
         <li class="nav-item">
           {% if link.url %}
-            <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
+            <a class="nav-link js-scroll-trigger" href="{{ link.url | relative_url }}">{{ link.title }}</a>
+
           {% elsif link.section %}
             <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/#{{ link.section }}">{{ link.title }}</a>
           {% else %}
