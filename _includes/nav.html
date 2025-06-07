@@ -9,20 +9,29 @@
       {% endif %}
     </a>
 
-    <ul class="navbar-nav ml-auto text-uppercase">
-      {% assign nav_links = site.data.navigation[site.locale] | default: site.data.navigation.nav %}
-      {% for link in nav_links %}
-        <li class="nav-item">
-          {% if link.url %}
-            <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}{{ link.url | prepend: '/' }}">{{ link.title }}</a>
-          {% elsif link.section %}
-            <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/#{{ link.section }}">{{ link.title }}</a>
-          {% else %}
-            <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
-          {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
+    <!-- Toggle button for mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ms-auto text-uppercase">
+        {% assign nav_links = site.data.navigation[site.locale] | default: site.data.navigation.nav %}
+        {% for link in nav_links %}
+          <li class="nav-item">
+            {% if link.url %}
+              <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}{{ link.url | prepend: '/' }}">{{ link.title }}</a>
+            {% elsif link.section %}
+              <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/#{{ link.section }}">{{ link.title }}</a>
+            {% else %}
+              <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </nav>
 <!-- End Navigation -->

@@ -1,47 +1,42 @@
-// Styling for the contact section
-section#contact {
-  background-color: $gray-900;
-  background-image: url("#{$contact-image}");
-  background-repeat: no-repeat;
-  background-position: center;
-  .section-heading {
-    color: $white;
+@keyframes sparkleGlow {
+  0%, 100% {
+    filter: drop-shadow(0 0 0px currentColor);
   }
-  .form-group {
-    margin-bottom: 25px;
-    input,
-    textarea {
-      padding: 20px;
-    }
-    input.form-control {
-      height: auto;
-    }
-    textarea.form-control {
-      height: 248px;
-    }
+  50% {
+    filter: drop-shadow(0 0 8px currentColor);
   }
-  .form-control:focus {
-    border-color: $primary;
-    box-shadow: none;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
   }
-  ::-webkit-input-placeholder {
-    font-weight: 700;
-    color: $gray-400;
-    @include heading-font;
+  50% {
+    transform: translateY(-5px);
   }
-  :-moz-placeholder {
-    font-weight: 700;
-    color: $gray-400;
-    @include heading-font;
-  }
-  ::-moz-placeholder {
-    font-weight: 700;
-    color: $gray-400;
-    @include heading-font;
-  }
-  :-ms-input-placeholder {
-    font-weight: 700;
-    color: $gray-400;
-    @include heading-font;
-  }
+}
+
+.social-icon svg {
+  transition: transform 0.3s ease;
+  filter: drop-shadow(0 0 0px #fff);
+}
+
+.social-icon:hover svg {
+  animation: sparkleGlow 1.5s infinite ease-in-out;
+  transform: scale(1.15);
+}
+
+.space-icons a {
+  animation: float 4s ease-in-out infinite;
+}
+
+/* Optional: stagger the float for each icon */
+.space-icons a:nth-child(2) {
+  animation-delay: 0.5s;
+}
+.space-icons a:nth-child(3) {
+  animation-delay: 1s;
+}
+.space-icons a:not(:last-child) {
+  margin-right: 40px; /* change value as needed */
 }

@@ -3,6 +3,7 @@ layout: default
 title: "Projects"
 permalink: /projects/
 ---
+<section style="padding: 100px 20px; text-align: center;">
 
 ## 🛠️ Our Projects
 
