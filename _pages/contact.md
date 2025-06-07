@@ -39,10 +39,7 @@ permalink: /contact/
 <a href="https://www.facebook.com/ses-iitbh"
    target="_blank"
    rel="noopener noreferrer"
-  class="social-icon transition duration-300 transform hover:scale-110"
-     style="color: inherit;"
-     onmouseover="this.style.color='#004080'"
-     onmouseout="this.style.color='inherit'">
+   class="social-icon text-white hover:text-[#004080] transition duration-300 transform hover:scale-110">
   <svg xmlns="http://www.w3.org/2000/svg"
        width="58" height="58"
        viewBox="0 0 24 24"
@@ -53,72 +50,61 @@ permalink: /contact/
   </svg>
 </a>
 
+<!-- Instagram (pink) -->
+<a href="https://www.instagram.com/ses_iitbh/"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="social-icon text-white hover:text-pink-400 transition duration-300 transform hover:scale-110">
+  <svg xmlns="http://www.w3.org/2000/svg"
+       width="58" height="58"
+       viewBox="0 0 24 24"
+       fill="none"
+       stroke="currentColor"
+       stroke-width="2"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       class="lucide lucide-instagram">
+    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+  </svg>
+</a>
 
-  <!-- Instagram (pink) -->
-  <a href="https://www.instagram.com/ses_iitbh/"
-     target="_blank"
-     rel="noopener noreferrer"
-     class="social-icon transition duration-300 transform hover:scale-110"
-     style="color: inherit;"
-     onmouseover="this.style.color='#ff4f8b'"
-     onmouseout="this.style.color='inherit'">
-    <svg xmlns="http://www.w3.org/2000/svg"
-         width="58" height="58"
-         viewBox="0 0 24 24"
-         fill="none"
-         stroke="currentColor"
-         stroke-width="2"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         class="lucide lucide-instagram">
-      <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-    </svg>
-  </a>
+<!-- LinkedIn (blue) -->
+<a href="https://www.linkedin.com/company/space-exploration-society-iitbh/about/"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="social-icon text-white hover:text-[#0077b5] transition duration-300 transform hover:scale-110">
+  <svg xmlns="http://www.w3.org/2000/svg"
+       width="58" height="58"
+       viewBox="0 0 24 24"
+       fill="none"
+       stroke="currentColor"
+       stroke-width="2"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       class="lucide lucide-linkedin">
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+    <rect width="4" height="12" x="2" y="9"></rect>
+    <circle cx="4" cy="4" r="2"></circle>
+  </svg>
+</a>
 
-  <!-- LinkedIn (blue) -->
-  <a href="https://www.linkedin.com/company/space-exploration-society-iitbh/about/"
-     target="_blank"
-     rel="noopener noreferrer"
-     class="social-icon transition duration-300 transform hover:scale-110"
-     style="color: inherit;"
-     onmouseover="this.style.color='#0077b5'"
-     onmouseout="this.style.color='inherit'">
-    <svg xmlns="http://www.w3.org/2000/svg"
-         width="58" height="58"
-         viewBox="0 0 24 24"
-         fill="none"
-         stroke="currentColor"
-         stroke-width="2"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         class="lucide lucide-linkedin">
-      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-      <rect width="4" height="12" x="2" y="9"></rect>
-      <circle cx="4" cy="4" r="2"></circle>
-    </svg>
-  </a>
-
-  <!-- YouTube (red) -->
-  <a href="https://www.youtube.com/@spaceexplorationsocietyiit864/featured"
-     target="_blank"
-     rel="noopener noreferrer"
-     class="social-icon transition duration-300 transform hover:scale-110"
-     style="color: inherit;"
-     onmouseover="this.style.color='#ff0000'"
-     onmouseout="this.style.color='inherit'">
-    <svg xmlns="http://www.w3.org/2000/svg"
-         width="58" height="58"
-         viewBox="0 0 24 24"
-         fill="none"
-         stroke="currentColor"
-         stroke-width="2"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         class="lucide lucide-youtube">
-      <path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-2C18.88 4 12 4 12 4s-6.88 0-8.59.42a2.78 2.78 0 0 0-1.95 2 29.94 29.94 0 0 0-.46 5.58 29.94 29.94 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 2C5.12 20 12 20 12 20s6.88 0 8.59-.42a2.78 2.78 0 0 0 1.95-2c.3-1.84.46-3.73.46-5.58s-.16-3.74-.46-5.58z"></path>
-      <polygon points="10 15 15 12 10 9 10 15"></polygon>
-    </svg>
-  </a>
-</div>
+<!-- YouTube (red) -->
+<a href="https://www.youtube.com/@spaceexplorationsocietyiit864/featured"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="social-icon text-white hover:text-red-600 transition duration-300 transform hover:scale-110">
+  <svg xmlns="http://www.w3.org/2000/svg"
+       width="58" height="58"
+       viewBox="0 0 24 24"
+       fill="none"
+       stroke="currentColor"
+       stroke-width="2"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       class="lucide lucide-youtube">
+    <path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-2C18.88 4 12 4 12 4s-6.88 0-8.59.42a2.78 2.78 0 0 0-1.95 2 29.94 29.94 0 0 0-.46 5.58 29.94 29.94 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 2C5.12 20 12 20 12 20s6.88 0 8.59-.42a2.78 2.78 0 0 0 1.95-2c.3-1.84.46-3.73.46-5.58s-.16-3.74-.46-5.58z"></path>
+    <polygon points="10 15 15 12 10 9 10 15"></polygon>
+  </svg>
+</a>
