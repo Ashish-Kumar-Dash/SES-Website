@@ -34,10 +34,9 @@ $contact-image: "{{ site.data.style.contact-image }}";
 @import "components/client-scroll.scss";
 
 // Layout
-@import "layout/masthead.scss";
-@import "layout/services.scss";
+@import "layout/about.scss";
+@import "layout/projects.scss";
 @import "layout/events.scss";
-@import "layout/timeline.scss";
 @import "layout/team.scss";
 @import "layout/contact.scss";
 @import "layout/footer.scss";
