@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <section style="padding: 100px 20px; text-align: center;">
-  <h1 style="font-size: 3rem;">FOR THE ASTROPHILES, TO THE ASTROPHILES, BY THE ASTROPHILES</h1>
+  <h1 style="font-size: 3rem;">FROM PROXIMITY TO INFINITY</h1>
   <p style="font-size: 1.5rem; color: #ccc; margin-top: 20px;">Welcome to the Space Exploration Society</p>
 </section>
 

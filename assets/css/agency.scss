@@ -36,7 +36,7 @@ $contact-image: "{{ site.data.style.contact-image }}";
 // Layout
 @import "layout/masthead.scss";
 @import "layout/services.scss";
-@import "layout/portfolio.scss";
+@import "layout/events.scss";
 @import "layout/timeline.scss";
 @import "layout/team.scss";
 @import "layout/contact.scss";
@@ -157,5 +157,10 @@ body, html {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+@media (max-width: 768px) {
+  body section:first-of-type {
+    padding-top: 130px !important;
   }
 }

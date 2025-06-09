@@ -12,7 +12,7 @@ permalink: /contact/
   <iframe 
     src="https://docs.google.com/forms/d/e/1FAIpQLSfhBKeA7WvAJAV-4_WhAiDAdMI0ynvbVguZ6URvvcMHBqr4jw/viewform?embedded=true" 
     width="100%" 
-    height="750" 
+    height="700" 
     frameborder="0" 
     marginheight="0" 
     marginwidth="0"
