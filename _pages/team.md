@@ -7,56 +7,54 @@ permalink: /team/
 <section class="team-section">
   <div class="container">
     <div class="team-intro text-center">
-  <h1 class="glow-heading">
-    Meet the Stars Behind the Galaxy of Ideas
-  </h1>
-</div>
+      <h1 class="glow-heading">
+        Meet the Stars Behind the Galaxy of Ideas
+      </h1>
+    </div>
 
     <!-- Secretaries -->
-<div class="team-group text-center">
+  <div class="team-group text-center">
       <h2 class="section-heading"> Secretaries </h2>
       <div class="team-row">
         <div class="team-card">
-          <img src="/assets/img/team/3.jpg"  />
+          <img src="{{ site.baseurl }}/assets/img/team/3.jpg" />
         </div>
         <div class="team-card">
-          <img src="/assets/img/team/2.jpg"  />
+          <img src="{{ site.baseurl }}/assets/img/team/2.jpg" />
         </div>
       </div>
     </div>
 
     <!-- Mentors -->
-<div class="team-group text-center">
-      <h2 class="section-heading">Mentors</h2>
+  <div class="team-group text-center">
+     <h2 class="section-heading">Mentors</h2>
       <div class="team-row">
         <div class="team-card badge-border">
-          <img src="/assets/img/team/m1.jpg" alt="Astronomy Divison 24-25" />
+          <img src="{{ site.baseurl }}/assets/img/team/m1.jpg" alt="Astronomy Division 24-25" />
         </div>
         <div class="team-card badge-border">
-          <img src="/assets/img/team/m2.jpg" alt="Aeromodeling Divison 24-25" />
+          <img src="{{ site.baseurl }}/assets/img/team/m2.jpg" alt="Aeromodeling Division 24-25" />
         </div>
       </div>
     </div>
-<div class="team-group text-center">
-  <h2 class="section-heading">Core Members</h2>
-  <div class="core-gallery">
-    <!-- Top Row: a, b, c -->
-    <div class="core-row">
-      <div class="core-photo-wrapper"><img src="/assets/img/team/4.jpg" /></div>
-      <div class="core-photo-wrapper"><img src="/assets/img/team/8.jpg"  /></div>
-      <div class="core-photo-wrapper"><img src="/assets/img/team/6.jpg"  /></div>
+
+    <!-- Core Members -->
+  <div class="team-group text-center">
+      <h2 class="section-heading">Core Members</h2>
+      <div class="core-gallery">
+        <!-- Top Row: a, b, c -->
+        <div class="core-row">
+          <div class="core-photo-wrapper"><img src="{{ site.baseurl }}/assets/img/team/4.jpg" /></div>
+          <div class="core-photo-wrapper"><img src="{{ site.baseurl }}/assets/img/team/8.jpg" /></div>
+          <div class="core-photo-wrapper"><img src="{{ site.baseurl }}/assets/img/team/6.jpg" /></div>
+        </div>
+        <!-- Bottom Row: d between a & b, e between b & c -->
+        <div class="offset-row">
+          <div class="core-photo-wrapper"><img src="{{ site.baseurl }}/assets/img/team/5.jpg" /></div>
+          <div class="core-photo-wrapper"><img src="{{ site.baseurl }}/assets/img/team/7.jpg" /></div>
+        </div>
+      </div>
     </div>
-    <!-- Bottom Row: d between a & b, e between b & c -->
-    <div class="offset-row">
-      <div class="core-photo-wrapper"><img src="/assets/img/team/5.jpg"  /></div>
-      <div class="core-photo-wrapper"><img src="/assets/img/team/7.jpg" /></div>
-    </div>
-  </div>
-</div>
-
-
-
-
   </div>
 </section>
 <!-- Image Modal for full view -->
