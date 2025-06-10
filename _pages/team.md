@@ -8,7 +8,8 @@ permalink: /team/
   <div class="container">
     <div class="team-intro text-center">
       <h1 class="glow-heading">
-        Meet the Stars Behind the Galaxy of Ideas
+        Meet the Stars Behind the Galaxy of Ideas!<br>
+        Core Team 2025-26
       </h1>
     </div>
 
@@ -30,10 +31,15 @@ permalink: /team/
      <h2 class="section-heading">Mentors</h2>
       <div class="team-row">
         <div class="team-card badge-border">
-          <img src="{{ site.baseurl }}/assets/img/team/m1.jpg" alt="Astronomy Division 24-25" />
+          <img src="{{ site.baseurl }}/assets/img/team/m1.jpg" />
+          <h4 > Nannuri Sai Kamal </h4>
+        <h6>  Secretary,Astronomy Division 2024-25
+          </h6>
         </div>
         <div class="team-card badge-border">
-          <img src="{{ site.baseurl }}/assets/img/team/m2.jpg" alt="Aeromodeling Division 24-25" />
+          <img src="{{ site.baseurl }}/assets/img/team/m2.jpg"  />
+            <h4 > Siddhesh Kumar Patra </h4>
+         <h6>   Secretary,Aeromodelling Division 2024-25</h6>
         </div>
       </div>
     </div>

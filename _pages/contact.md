@@ -31,6 +31,7 @@ permalink: /contact/
     -webkit-text-fill-color: transparent;
   }
 </style>
+<section style="padding: 4px 20px; ">
 <h1 class="text-2xl font-semibold mb-4 gradient-text">
   Explore the stars with us — Follow our journey!
 </h1>
