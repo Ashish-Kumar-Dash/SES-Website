@@ -9,7 +9,7 @@ permalink: /about/
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading animate-fade-in">Space Exploration Society</h2>
-        <h3 class="section-subheading animate-fade-in delay-1">For the Astrophiles, By the Astrophiles</h3>
+        <h3 class="section-subheading animate-fade-in delay-1">For the Astrophiles,By the Astrophiles,To the Astrophiles</h3>
       </div>
     </div>
     <div class="row">
@@ -23,7 +23,7 @@ permalink: /about/
           SES ignites a deep passion for space sciences by providing a clear, structured path for exploration and research. As IIT Bhilai’s only dedicated space society, we empower future astrophysicists, aerospace engineers, and space enthusiasts to turn their ambitions into reality.
         </p>
 
-        <h3 class="animate-underline delay-5">What We Do</h3>
+  <h3 class="animate-underline delay-5">What We Do</h3>
         <p class="animate-fade-in delay-6">
           We drive innovation and learning through two core pillars:
         </p>
