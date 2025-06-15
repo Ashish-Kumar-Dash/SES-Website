@@ -1,60 +1,64 @@
 SES‑Website
-Official website for the Space Exploration Society (SES) at IIT Bhilai for the academic year 2025–26. A Jekyll-based static site showcasing society initiatives, team members, portfolio, and event highlights.
+Official website for the Space Exploration Society (SES) at IIT Bhilai for the academic year 2025–26.
+This site is built using Jekyll and serves to showcase the society's projects, events, team members, and outreach activities.
 
-🚀 Features
-Landing page with hero banners and navigation
+Features
+Modern, responsive layout
 
-About & legal pages (e.g. legal.md)
+Project and event portfolio
 
-Portfolio section to showcase projects/events
+Custom sections for team, events, and society divisions
 
-Custom Jekyll theme forked from raviriley/agency-jekyll-theme
+Styled with SCSS, enhanced with animations
 
-Responsive layout with SCSS styling and JavaScript enhancements
+SEO-friendly structure using Jekyll templates and data files
 
-SEO-friendly structure via _includes, _layouts, and _data
+Repository Structure
+_config.yml – Jekyll configuration
 
-📁 Repository Structure
-.
-├── _config.yml        # Jekyll configuration
-├── _data/             # Data files (e.g. navigation, people)
-├── _includes/         # Reusable HTML snippets
-├── _layouts/          # Layout templates
-├── _pages/            # Static pages (About, Contact, etc.)
-├── _portfolio/        # Portfolio entries
-├── assets/            # Images, JS, SCSS
-├── Gemfile            # Jekyll and plugin dependencies
-├── fix-assets.sh      # Script: fix asset paths
-├── fix-links.sh       # Script: update internal links
-├── index.md           # Home page content
-├── legal.md           # Legal & privacy information
-└── 404.html           # Custom “Page not found”
-🛠️ Setup & Deployment
-Prerequisites
-Ruby & Bundler (gem install bundler)
-Jekyll (bundle install will include it)
+_data/ – Data files for navigation, team info, etc.
 
-Run Locally
-git clone https://github.com/Ashish‑Kumar‑Dash/SES‑Website.git
-cd SES‑Website
-bundle install
-bundle exec jekyll serve
-Then visit http://localhost:4000/ in your browser.
+_includes/ – Reusable HTML snippets
+
+_layouts/ – Layout templates for pages
+
+_pages/ – Static content pages (About, Contact, etc.)
+
+_portfolio/ – Individual portfolio entries
+
+assets/ – SCSS styles, JS scripts, and images
+
+index.md – Homepage content
+
+fix-assets.sh – Script to fix asset paths
+
+fix-links.sh – Script to fix internal links
+
+legal.md – Legal and privacy information
+
+Setup and Usage
+To work on this site locally, you will need Ruby, Bundler, and Jekyll installed.
+Clone the repository, install the dependencies, and serve the site using Jekyll.
+Once running, the website can be viewed at http://localhost:4000.
+
+Customization
+Use _data/ to update navigation menus, team info, and other structured content
+
+Modify or add pages in _pages/
+
+Customize layouts and styles using SCSS files in the assets/ directory
+
+Use the fix-assets.sh and fix-links.sh scripts if you reorganize file paths
 
 Deployment
-Static site—can be deployed via GitHub Pages, Netlify, or any static host:
+As a static website, this can be hosted using platforms like:
 
-For GitHub Pages, push to the main branch (or turn on GH Pages in repo settings).
+GitHub Pages (enable Pages in repository settings)
 
-For Netlify, connect the repo and set the build command to jekyll build (or let Netlify auto-recognize Jekyll).
+Netlify (connect repo and configure it to use jekyll build)
 
-🧩 Customization
-Content: Add or modify files in _pages, _portfolio, or _data.
+Any other static site host that supports Jekyll output
 
-Theme/Styling: Edit SCSS under assets/ or tweak layout templates in _layouts/.
-
-Scripts: Re-run fix-assets.sh or fix-links.sh post-renaming/moving files.
-
-🤝 License & Contribution
-License: MIT 
-Contributions welcome! Feel free to open issues or pull requests.
+Contributing
+Contributions are welcome. Feel free to open issues or submit pull requests.
+If contributing, please ensure your code is clean, readable, and adheres to existing formatting.
